@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29C7979F19565CC1008422AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C7979E19565CC1008422AE /* OpenGLES.framework */; };
 		9417A60E1864D4DC00D9D37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9417A60D1864D4DC00D9D37B /* Foundation.framework */; };
 		9417A6101864D4DC00D9D37B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9417A60F1864D4DC00D9D37B /* CoreGraphics.framework */; };
 		9417A6121864D4DC00D9D37B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9417A6111864D4DC00D9D37B /* UIKit.framework */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29C7979E19565CC1008422AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		9417A60A1864D4DC00D9D37B /* EZAudioPassThroughExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZAudioPassThroughExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9417A60D1864D4DC00D9D37B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9417A60F1864D4DC00D9D37B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -105,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C7979F19565CC1008422AE /* OpenGLES.framework in Frameworks */,
 				9417A6C518658FAA00D9D37B /* AVFoundation.framework in Frameworks */,
 				9417A6BF18658F8D00D9D37B /* GLKit.framework in Frameworks */,
 				9417A6BD18658F8800D9D37B /* AudioToolbox.framework in Frameworks */,
@@ -149,6 +152,7 @@
 		9417A60C1864D4DC00D9D37B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29C7979E19565CC1008422AE /* OpenGLES.framework */,
 				9417A6C418658FAA00D9D37B /* AVFoundation.framework */,
 				9417A6BE18658F8D00D9D37B /* GLKit.framework */,
 				9417A6BC18658F8800D9D37B /* AudioToolbox.framework */,
